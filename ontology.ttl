@@ -6,7 +6,9 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @base <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#> .
 
-<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.> rdf:type owl:Ontology .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.> rdf:type owl:Ontology ;
+                                                                                     rdfs:comment "The Airline Satisfaction Surveys ontology models the data that has been collected from passenger satisfaction surveys for different flights operated by Qatar Airways and Ryanair, respectively. It contains the representation of flights, airlines, passengers, surveys and answers to specific questions about the flying experience. The purpose of this ontology is to structure this data to analyze in detail and quickly answer questions related to customer satisfaction." ;
+                                                                                     rdfs:label "Airline Satisfaction Surveys" .
 
 #################################################################
 #    Annotation properties
@@ -198,8 +200,7 @@ rdfs:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger
 :Business_Class_Passenger rdf:type owl:Class ;
-                          rdfs:subClassOf :Passenger ,
-                                          :Person ;
+                          rdfs:subClassOf :Passenger ;
                           rdfs:comment "The Business_Class_Passenger subclass includes passengers traveling in the business class section of an aircraft. They receive enhanced comfort and amenities compared to economy class, suitable for business travel." ;
                           rdfs:label "Business Class Passenger" .
 
@@ -246,8 +247,7 @@ rdfs:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger
 :Economy_Class_Passenger rdf:type owl:Class ;
-                         rdfs:subClassOf :Passenger ,
-                                         :Person ;
+                         rdfs:subClassOf :Passenger ;
                          rdfs:comment "The Economy_Class_Passenger subclass encompasses passengers who travel in the economy class, the most common and affordable travel class in commercial aviation, focusing on basic amenities and services." ;
                          rdfs:label "Economy Class Passenger" .
 
@@ -261,8 +261,7 @@ rdfs:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger
 :First_Class_Passenger rdf:type owl:Class ;
-                       rdfs:subClassOf :Passenger ,
-                                       :Person ;
+                       rdfs:subClassOf :Passenger ;
                        rdfs:comment "The First_Class_Passenger subclass refers to passengers who travel in the first-class cabin of an aircraft. These passengers enjoy premium services, including superior seating, dining, and privacy." ;
                        rdfs:label "First Class Passenger" .
 
@@ -281,8 +280,7 @@ rdfs:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant
 :Flight_Attendant rdf:type owl:Class ;
-                  rdfs:subClassOf :Crew_Member ,
-                                  :Person ;
+                  rdfs:subClassOf :Crew_Member ;
                   rdfs:comment "The Flight_Attendant subclass consists of crew members who manage the cabin of an aircraft, providing safety instructions, services, and support to passengers during the flight." ;
                   rdfs:label "Flight Attendant" .
 
@@ -335,8 +333,7 @@ rdfs:sameAs rdf:type owl:ObjectProperty .
 
 ###  http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot
 :Pilot rdf:type owl:Class ;
-       rdfs:subClassOf :Crew_Member ,
-                       :Person ;
+       rdfs:subClassOf :Crew_Member ;
        rdfs:comment "The Pilot subclass includes individuals trained and certified to operate and navigate aircraft. Pilots are essential for the safety and efficiency of air travel, overseeing all aspects of flight management." ;
        rdfs:label "Pilot" .
 
