@@ -1,0 +1,1158 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S3"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid28"
+    }, {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid22"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid30"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "60"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S2"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid39"
+    }, {
+      "@id" : "_:genid37"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid41"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "8"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating"
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "S1"
+  } ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid50"
+    }, {
+      "@id" : "_:genid48"
+    }, {
+      "@id" : "_:genid46"
+    }, {
+      "@id" : "_:genid44"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid52"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#date"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#f"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid50",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer"
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"
+  } ]
+}, {
+  "@id" : "http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350"
+  } ],
+  "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid14"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "for Qatar Airways"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airbus A350"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Aircraft class represents any type of air vehicle used to transport passengers or cargo over short or long distances. It serves as a general category within which specific types of aircraft are further categorized based on their size, range, and typical usage scenarios"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Airbus_A350"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "In this case, the Airline class includes air transport companies that operate regular and non-scheduled passenger and cargo flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Airport class represents any facility that is used for the takeoff and landing of aircraft, including facilities for the handling of passengers and cargo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "https://dbpedia.org/page/Hamad_International_Airport"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Business_Class_Passenger subclass includes passengers traveling in the business class section of an aircraft. They receive enhanced comfort and amenities compared to economy class, suitable for business travel."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Business Class Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Comfort_Review subclass includes evaluations related to the physical comfort provided during the flight. This covers aspects such as seat comfort, cabin cleanliness, and ambient conditions, directly impacting the passenger's travel experience."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Comfort Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Crew_Member subclass represents the airline staff responsible for the operation and safety of flights. This includes pilots, who manage the flight controls, and flight attendants, who ensure passenger comfort and safety."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Crew Member"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Domestic_Airline subclass includes airlines that operate within the boundaries of a single country, often connecting major cities and regional centers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Domestic Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Domestic_Airport subclass includes airports that handle flights within a single country's borders."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Domestic Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Domestic_Flight subclass includes flights that operate within the same country's borders. These flights do not require customs or immigration checks and are typically shorter in duration than international flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Domestic Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Economy_Class_Passenger subclass encompasses passengers who travel in the economy class, the most common and affordable travel class in commercial aviation, focusing on basic amenities and services."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Economy Class Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Entertainment_Review subclass deals with passenger feedback on the in-flight entertainment options available, such as movies, music, games, and Wi-Fi services. This type of review assesses whether the entertainment provided meets the needs and expectations of passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entertainment Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The First_Class_Passenger subclass refers to passengers who travel in the first-class cabin of an aircraft. These passengers enjoy premium services, including superior seating, dining, and privacy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "First Class Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Flight class represents any journey taken by an aircraft from one airport to another. This class includes essential details such as the flight number, airline, origin, destination, and schedule."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "http://dbpedia.org/page/Qatar_Airways"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Flight_Attendant subclass consists of crew members who manage the cabin of an aircraft, providing safety instructions, services, and support to passengers during the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Flight Attendant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The International_Airline subclass represents airlines that operate flights across international borders. These carriers typically manage long-haul routes connecting major cities around the world"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "International Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "International_Airportsubclass describes airports that are equipped to handle international flights, capable of managing customs and immigration processes for passengers and cargo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "International Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The International_Flight subclass describes flights that cross international boundaries. These flights are subject to international regulations and typically involve longer distances and durations than domestic flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "International Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "travel in QR001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "John Doe"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Narrow_Body_Aircraftsubclass represents smaller aircraft generally used for short to medium-haul flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Narrow Body Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Passenger subclass includes individuals who travel on an aircraft, irrespective of their travel class. Passengers are essential to the airline industry, and their feedback and satisfaction are crucial for service improvement and market analysis."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Person class represents any individual involved in air travel, encompassing a wide range of roles from passengers to crew members."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Pilot subclass includes individuals trained and certified to operate and navigate aircraft. Pilots are essential for the safety and efficiency of air travel, overseeing all aspects of flight management."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pilot"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Post_Flight_Surveysubclass encompasses surveys conducted after the flight has occurred. This type of survey focuses on assessing passengers' satisfaction with their flight experience, including aspects such as comfort, service quality, and overall satisfaction. The results are crucial for airlines to identify strengths and areas for improvement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Post Flight Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Pre_Flight_Survey subclass includes surveys conducted before a passenger's flight. These surveys typically gather information about passengers' expectations, preferences, and pre-travel concerns. The feedback is used to enhance service delivery and ensure a more personalized and satisfying flight experience."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pre Flight Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid15"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A major international airline based in Qatar, known for high service quality"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Qatar Airways"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Regional_Aircraft subclass is designed for short-range flights, connecting smaller cities and regions. These aircraft are smaller in size and capacity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Regional Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Review class represents evaluations or feedback provided by passengers regarding their flight experience. This class is crucial for gathering insights into various aspects of air travel, ranging from safety to entertainment, helping airlines to improve their services and enhance customer satisfaction."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Safety_Review subclass encompasses assessments focused on the safety measures and protocols of an airline. These reviews evaluate factors such as emergency procedures, crew responsiveness, and overall safety conditions, which are critical for passenger trust and airline reputation."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Safety Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Service_Review subclass involves feedback on the quality of service provided by the airline's crew, including interactions with flight attendants, the efficiency of the service, and the hospitality shown to passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Service Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Survey class represents a systematic collection of data from passengers regarding their flight experiences or expectations. Surveys are essential tools for airlines to gather actionable insights that can improve service quality and passenger satisfaction. This class serves as a foundation for categorizing different types of surveys based on their timing relative to the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "associated with flight QR001"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Survey 123"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid18"
+  }, {
+    "@id" : "_:genid19"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "fly QR001, fly FR002"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Vuelo QR001"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The Wide_Body_Aircraft subclass represents larger aircraft typically used for long-haul international flights."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Wide Body Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The dateFlown data property records the specific date on which a flight took place. This property is essential for tracking flight schedules, analyzing flight frequency, and examining trends over time, such as seasonal variations in travel or changes in route popularity. It is used across various applications in aviation analytics, such as performance assessment, planning, and reporting."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid7"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "dateFlown"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The fliesAircraft property connects a Flight instance to the specific Aircraft used for that flight. This property is essential for detailing the type of aircraft operating on a given route, enabling analyses of aircraft usage patterns, passenger capacity, and flight performance based on different aircraft types. It provides crucial information for operational planning, maintenance scheduling, and enhancing passenger comfort and safety."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "fliesAircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#double"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The hasFlight property links an Airline to the Flight instances it operates. This property is used to associate airlines with specific flights, indicating which flights are managed and offered by the airline. It is crucial for modeling the operations of airlines in terms of routes, schedules, and offered services, providing a clear overview of the flights an airline is responsible for."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasFlight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The hasReview object property establishes a relationship between a Survey and the Review instances that are generated as a result of that survey. This property is crucial for mapping specific reviews to the surveys they originated from, allowing for detailed analysis of feedback on different aspects of services or experiences. It enables the organization to assess and improve their offerings based on direct customer feedback."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid4"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasReview"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The hasSurvey object property links a Flight to one or more Survey instances associated with it. This property is essential for tracking which surveys have been conducted for a particular flight, capturing passenger feedback on various aspects of their flight experience. It facilitates the aggregation of data for analyzing customer satisfaction and service quality, helping airlines to identify areas of improvement and to enhance overall passenger experience."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  }, {
+    "@id" : "_:genid5"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasSurvey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "The rating data property quantifies the quality or satisfaction level expressed by an individual, typically ranging from 1 (lowest satisfaction) to 5 (highest satisfaction). This property is commonly used to capture feedback on various aspects of services or products, such as customer service, product quality, or user experience. It allows for the aggregation and analysis of customer feedback to gauge overall satisfaction and identify areas for improvement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty", "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThanOrEqual",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#date",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#f",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]

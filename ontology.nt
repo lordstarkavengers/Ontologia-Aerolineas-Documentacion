@@ -1,0 +1,592 @@
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The fliesAircraft property connects a Flight instance to the specific Aircraft used for that flight. This property is essential for detailing the type of aircraft operating on a given route, enabling analyses of aircraft usage patterns, passenger capacity, and flight performance based on different aircraft types. It provides crucial information for operational planning, maintenance scheduling, and enhancing passenger comfort and safety." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft> <http://www.w3.org/2000/01/rdf-schema#label> "fliesAircraft" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid2 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.w3.org/2000/01/rdf-schema#label> "has Aircraft" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/2000/01/rdf-schema#range> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid3 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/2000/01/rdf-schema#comment> "The hasFlight property links an Airline to the Flight instances it operates. This property is used to associate airlines with specific flights, indicating which flights are managed and offered by the airline. It is crucial for modeling the operations of airlines in terms of routes, schedules, and offered services, providing a clear overview of the flights an airline is responsible for." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.w3.org/2000/01/rdf-schema#label> "hasFlight" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/2000/01/rdf-schema#comment> "The hasReview object property establishes a relationship between a Survey and the Review instances that are generated as a result of that survey. This property is crucial for mapping specific reviews to the surveys they originated from, allowing for detailed analysis of feedback on different aspects of services or experiences. It enables the organization to assess and improve their offerings based on direct customer feedback." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> <http://www.w3.org/2000/01/rdf-schema#label> "hasReview" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#range> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid6 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#comment> "The hasSurvey object property links a Flight to one or more Survey instances associated with it. This property is essential for tracking which surveys have been conducted for a particular flight, capturing passenger feedback on various aspects of their flight experience. It facilitates the aggregation of data for analyzing customer satisfaction and service quality, helping airlines to identify areas of improvement and to enhance overall passenger experience." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.w3.org/2000/01/rdf-schema#label> "hasSurvey" .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid7 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/2000/01/rdf-schema#comment> "The dateFlown data property records the specific date on which a flight took place. This property is essential for tracking flight schedules, analyzing flight frequency, and examining trends over time, such as seasonal variations in travel or changes in route popularity. It is used across various applications in aviation analytics, such as performance assessment, planning, and reporting." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown> <http://www.w3.org/2000/01/rdf-schema#label> "dateFlown" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#double> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/2000/01/rdf-schema#comment> "The rating data property quantifies the quality or satisfaction level expressed by an individual, typically ranging from 1 (lowest satisfaction) to 5 (highest satisfaction). This property is commonly used to capture feedback on various aspects of services or products, such as customer service, product quality, or user experience. It allows for the aggregation and analysis of customer feedback to gauge overall satisfaction and identify areas for improvement." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> <http://www.w3.org/2000/01/rdf-schema#label> "rating" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The Aircraft class represents any type of air vehicle used to transport passengers or cargo over short or long distances. It serves as a general category within which specific types of aircraft are further categorized based on their size, range, and typical usage scenarios" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Aircraft" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Airbus_A350" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "In this case, the Airline class includes air transport companies that operate regular and non-scheduled passenger and cargo flights." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Airline" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "The Airport class represents any facility that is used for the takeoff and landing of aircraft, including facilities for the handling of passengers and cargo." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Airport" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://dbpedia.org/page/Hamad_International_Airport" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "The Business_Class_Passenger subclass includes passengers traveling in the business class section of an aircraft. They receive enhanced comfort and amenities compared to economy class, suitable for business travel." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Business Class Passenger" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "The Comfort_Review subclass includes evaluations related to the physical comfort provided during the flight. This covers aspects such as seat comfort, cabin cleanliness, and ambient conditions, directly impacting the passenger's travel experience." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Comfort Review" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> <http://www.w3.org/2000/01/rdf-schema#comment> "The Crew_Member subclass represents the airline staff responsible for the operation and safety of flights. This includes pilots, who manage the flight controls, and flight attendants, who ensure passenger comfort and safety." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> <http://www.w3.org/2000/01/rdf-schema#label> "Crew Member" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "The Domestic_Airline subclass includes airlines that operate within the boundaries of a single country, often connecting major cities and regional centers." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline> <http://www.w3.org/2000/01/rdf-schema#label> "Domestic Airline" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "The Domestic_Airport subclass includes airports that handle flights within a single country's borders." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport> <http://www.w3.org/2000/01/rdf-schema#label> "Domestic Airport" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "The Domestic_Flight subclass includes flights that operate within the same country's borders. These flights do not require customs or immigration checks and are typically shorter in duration than international flights." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Domestic Flight" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "The Economy_Class_Passenger subclass encompasses passengers who travel in the economy class, the most common and affordable travel class in commercial aviation, focusing on basic amenities and services." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Economy Class Passenger" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "The Entertainment_Review subclass deals with passenger feedback on the in-flight entertainment options available, such as movies, music, games, and Wi-Fi services. This type of review assesses whether the entertainment provided meets the needs and expectations of passengers." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Entertainment Review" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "The First_Class_Passenger subclass refers to passengers who travel in the first-class cabin of an aircraft. These passengers enjoy premium services, including superior seating, dining, and privacy." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "First Class Passenger" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid9 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "The Flight class represents any journey taken by an aircraft from one airport to another. This class includes essential details such as the flight number, airline, origin, destination, and schedule." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> <http://www.w3.org/2000/01/rdf-schema#label> "Flight" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/page/Qatar_Airways" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant> <http://www.w3.org/2000/01/rdf-schema#comment> "The Flight_Attendant subclass consists of crew members who manage the cabin of an aircraft, providing safety instructions, services, and support to passengers during the flight." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant> <http://www.w3.org/2000/01/rdf-schema#label> "Flight Attendant" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline> <http://www.w3.org/2000/01/rdf-schema#comment> "The International_Airline subclass represents airlines that operate flights across international borders. These carriers typically manage long-haul routes connecting major cities around the world" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline> <http://www.w3.org/2000/01/rdf-schema#label> "International Airline" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport> <http://www.w3.org/2000/01/rdf-schema#comment> "International_Airportsubclass describes airports that are equipped to handle international flights, capable of managing customs and immigration processes for passengers and cargo." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport> <http://www.w3.org/2000/01/rdf-schema#label> "International Airport" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid10 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight> <http://www.w3.org/2000/01/rdf-schema#comment> "The International_Flight subclass describes flights that cross international boundaries. These flights are subject to international regulations and typically involve longer distances and durations than domestic flights." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight> <http://www.w3.org/2000/01/rdf-schema#label> "International Flight" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The Narrow_Body_Aircraftsubclass represents smaller aircraft generally used for short to medium-haul flights." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Narrow Body Aircraft" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> <http://www.w3.org/2000/01/rdf-schema#comment> "The Passenger subclass includes individuals who travel on an aircraft, irrespective of their travel class. Passengers are essential to the airline industry, and their feedback and satisfaction are crucial for service improvement and market analysis." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> <http://www.w3.org/2000/01/rdf-schema#label> "Passenger" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "The Person class represents any individual involved in air travel, encompassing a wide range of roles from passengers to crew members." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot> <http://www.w3.org/2000/01/rdf-schema#comment> "The Pilot subclass includes individuals trained and certified to operate and navigate aircraft. Pilots are essential for the safety and efficiency of air travel, overseeing all aspects of flight management." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot> <http://www.w3.org/2000/01/rdf-schema#label> "Pilot" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid11 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "The Post_Flight_Surveysubclass encompasses surveys conducted after the flight has occurred. This type of survey focuses on assessing passengers' satisfaction with their flight experience, including aspects such as comfort, service quality, and overall satisfaction. The results are crucial for airlines to identify strengths and areas for improvement." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Post Flight Survey" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid12 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "The Pre_Flight_Survey subclass includes surveys conducted before a passenger's flight. These surveys typically gather information about passengers' expectations, preferences, and pre-travel concerns. The feedback is used to enhance service delivery and ensure a more personalized and satisfying flight experience." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Pre Flight Survey" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The Regional_Aircraft subclass is designed for short-range flights, connecting smaller cities and regions. These aircraft are smaller in size and capacity" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Regional Aircraft" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> <http://www.w3.org/2000/01/rdf-schema#comment> "The Review class represents evaluations or feedback provided by passengers regarding their flight experience. This class is crucial for gathering insights into various aspects of air travel, ranging from safety to entertainment, helping airlines to improve their services and enhance customer satisfaction." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> <http://www.w3.org/2000/01/rdf-schema#label> "Review" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "The Safety_Review subclass encompasses assessments focused on the safety measures and protocols of an airline. These reviews evaluate factors such as emergency procedures, crew responsiveness, and overall safety conditions, which are critical for passenger trust and airline reputation." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Review" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review> <http://www.w3.org/2000/01/rdf-schema#comment> "The Service_Review subclass involves feedback on the quality of service provided by the airline's crew, including interactions with flight attendants, the efficiency of the service, and the hospitality shown to passengers." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review> <http://www.w3.org/2000/01/rdf-schema#label> "Service Review" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid13 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> <http://www.w3.org/2000/01/rdf-schema#comment> "The Survey class represents a systematic collection of data from passengers regarding their flight experiences or expectations. Surveys are essential tools for airlines to gather actionable insights that can improve service quality and passenger satisfaction. This class serves as a foundation for categorizing different types of surveys based on their timing relative to the flight." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> <http://www.w3.org/2000/01/rdf-schema#label> "Survey" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#comment> "The Wide_Body_Aircraft subclass represents larger aircraft typically used for long-haul international flights." .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft> <http://www.w3.org/2000/01/rdf-schema#label> "Wide Body Aircraft" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid14 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/2000/01/rdf-schema#comment> "for Qatar Airways" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> <http://www.w3.org/2000/01/rdf-schema#label> "Airbus A350" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/2000/01/rdf-schema#comment> "travel in QR001" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe> <http://www.w3.org/2000/01/rdf-schema#label> "John Doe" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid15 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/2000/01/rdf-schema#comment> "A major international airline based in Qatar, known for high service quality" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance> <http://www.w3.org/2000/01/rdf-schema#label> "Qatar Airways" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid16 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid17 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/2000/01/rdf-schema#comment> "associated with flight QR001" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123> <http://www.w3.org/2000/01/rdf-schema#label> "Survey 123" .
+# 
+# http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid18 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#onClass> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey> .
+_:genid19 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/2000/01/rdf-schema#comment> "fly QR001, fly FR002" .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001> <http://www.w3.org/2000/01/rdf-schema#label> "Vuelo QR001" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#p> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<urn:swrl:var#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid20 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid20 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid20 <http://www.w3.org/2000/01/rdf-schema#label> "S3" .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid20 <http://www.w3.org/2003/11/swrl#body> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#arguments> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "60"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument2> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay> .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f> .
+_:genid26 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f> .
+_:genid28 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid20 <http://www.w3.org/2003/11/swrl#head> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid30 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f> .
+_:genid30 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid31 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid31 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid31 <http://www.w3.org/2000/01/rdf-schema#label> "S2" .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid31 <http://www.w3.org/2003/11/swrl#body> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#arguments> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> .
+<http://www.w3.org/2003/11/swrlb#greaterThanOrEqual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument2> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score> .
+_:genid37 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r> .
+_:genid37 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r> .
+_:genid39 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid31 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r> .
+_:genid41 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid42 <http://www.w3.org/2000/01/rdf-schema#label> "S1" .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid42 <http://www.w3.org/2003/11/swrl#body> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#date> .
+_:genid44 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#f> .
+_:genid44 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid46 .
+_:genid46 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#f> .
+_:genid46 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#f> .
+_:genid48 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#p> .
+_:genid48 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid50 .
+_:genid50 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#p> .
+_:genid50 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid42 <http://www.w3.org/2003/11/swrl#head> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid52 .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument2> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid52 <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#p> .
+_:genid52 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

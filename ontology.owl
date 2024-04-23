@@ -1,0 +1,1026 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#"
+     xml:base="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas."
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:Encuestas_de_Satisfacción_de_Aerolíneas="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#">
+    <owl:Ontology rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas."/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#fliesAircraft">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdfs:comment>The fliesAircraft property connects a Flight instance to the specific Aircraft used for that flight. This property is essential for detailing the type of aircraft operating on a given route, enabling analyses of aircraft usage patterns, passenger capacity, and flight performance based on different aircraft types. It provides crucial information for operational planning, maintenance scheduling, and enhancing passenger comfort and safety.</rdfs:comment>
+        <rdfs:label>fliesAircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasAircraft">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdfs:label>has Aircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlight">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdfs:range rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The hasFlight property links an Airline to the Flight instances it operates. This property is used to associate airlines with specific flights, indicating which flights are managed and offered by the airline. It is crucial for modeling the operations of airlines in terms of routes, schedules, and offered services, providing a clear overview of the flights an airline is responsible for.</rdfs:comment>
+        <rdfs:label>hasFlight</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:comment>The hasReview object property establishes a relationship between a Survey and the Review instances that are generated as a result of that survey. This property is crucial for mapping specific reviews to the surveys they originated from, allowing for detailed analysis of feedback on different aspects of services or experiences. It enables the organization to assess and improve their offerings based on direct customer feedback.</rdfs:comment>
+        <rdfs:label>hasReview</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdfs:range>
+        <rdfs:comment>The hasSurvey object property links a Flight to one or more Survey instances associated with it. This property is essential for tracking which surveys have been conducted for a particular flight, capturing passenger feedback on various aspects of their flight experience. It facilitates the aggregation of data for analyzing customer satisfaction and service quality, helping airlines to identify areas of improvement and to enhance overall passenger experience.</rdfs:comment>
+        <rdfs:label>hasSurvey</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#dateFlown">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>The dateFlown data property records the specific date on which a flight took place. This property is essential for tracking flight schedules, analyzing flight frequency, and examining trends over time, such as seasonal variations in travel or changes in route popularity. It is used across various applications in aviation analytics, such as performance assessment, planning, and reporting.</rdfs:comment>
+        <rdfs:label>dateFlown</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasHighRiskOfDissatisfaction">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer">
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>The rating data property quantifies the quality or satisfaction level expressed by an individual, typically ranging from 1 (lowest satisfaction) to 5 (highest satisfaction). This property is commonly used to capture feedback on various aspects of services or products, such as customer service, product quality, or user experience. It allows for the aggregation and analysis of customer feedback to gauge overall satisfaction and identify areas for improvement.</rdfs:comment>
+        <rdfs:label>rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft">
+        <rdfs:comment>The Aircraft class represents any type of air vehicle used to transport passengers or cargo over short or long distances. It serves as a general category within which specific types of aircraft are further categorized based on their size, range, and typical usage scenarios</rdfs:comment>
+        <rdfs:label>Aircraft</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Airbus_A350</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline">
+        <rdfs:comment>In this case, the Airline class includes air transport companies that operate regular and non-scheduled passenger and cargo flights.</rdfs:comment>
+        <rdfs:label>Airline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport">
+        <rdfs:comment>The Airport class represents any facility that is used for the takeoff and landing of aircraft, including facilities for the handling of passengers and cargo.</rdfs:comment>
+        <rdfs:label>Airport</rdfs:label>
+        <rdfs:sameAs>https://dbpedia.org/page/Hamad_International_Airport</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Business_Class_Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Business_Class_Passenger subclass includes passengers traveling in the business class section of an aircraft. They receive enhanced comfort and amenities compared to economy class, suitable for business travel.</rdfs:comment>
+        <rdfs:label>Business Class Passenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Comfort_Review">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:comment>The Comfort_Review subclass includes evaluations related to the physical comfort provided during the flight. This covers aspects such as seat comfort, cabin cleanliness, and ambient conditions, directly impacting the passenger&apos;s travel experience.</rdfs:comment>
+        <rdfs:label>Comfort Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Crew_Member subclass represents the airline staff responsible for the operation and safety of flights. This includes pilots, who manage the flight controls, and flight attendants, who ensure passenger comfort and safety.</rdfs:comment>
+        <rdfs:label>Crew Member</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airline">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdfs:comment>The Domestic_Airline subclass includes airlines that operate within the boundaries of a single country, often connecting major cities and regional centers.</rdfs:comment>
+        <rdfs:label>Domestic Airline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Airport">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport"/>
+        <rdfs:comment>The Domestic_Airport subclass includes airports that handle flights within a single country&apos;s borders.</rdfs:comment>
+        <rdfs:label>Domestic Airport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Domestic_Flight">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Domestic_Flight subclass includes flights that operate within the same country&apos;s borders. These flights do not require customs or immigration checks and are typically shorter in duration than international flights.</rdfs:comment>
+        <rdfs:label>Domestic Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Economy_Class_Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Economy_Class_Passenger subclass encompasses passengers who travel in the economy class, the most common and affordable travel class in commercial aviation, focusing on basic amenities and services.</rdfs:comment>
+        <rdfs:label>Economy Class Passenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Entertainment_Review">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:comment>The Entertainment_Review subclass deals with passenger feedback on the in-flight entertainment options available, such as movies, music, games, and Wi-Fi services. This type of review assesses whether the entertainment provided meets the needs and expectations of passengers.</rdfs:comment>
+        <rdfs:label>Entertainment Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#First_Class_Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The First_Class_Passenger subclass refers to passengers who travel in the first-class cabin of an aircraft. These passengers enjoy premium services, including superior seating, dining, and privacy.</rdfs:comment>
+        <rdfs:label>First Class Passenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Flight class represents any journey taken by an aircraft from one airport to another. This class includes essential details such as the flight number, airline, origin, destination, and schedule.</rdfs:comment>
+        <rdfs:label>Flight</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/page/Qatar_Airways</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight_Attendant">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member"/>
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Flight_Attendant subclass consists of crew members who manage the cabin of an aircraft, providing safety instructions, services, and support to passengers during the flight.</rdfs:comment>
+        <rdfs:label>Flight Attendant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airline">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdfs:comment>The International_Airline subclass represents airlines that operate flights across international borders. These carriers typically manage long-haul routes connecting major cities around the world</rdfs:comment>
+        <rdfs:label>International Airline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Airport">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airport"/>
+        <rdfs:comment>International_Airportsubclass describes airports that are equipped to handle international flights, capable of managing customs and immigration processes for passengers and cargo.</rdfs:comment>
+        <rdfs:label>International Airport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#International_Flight">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The International_Flight subclass describes flights that cross international boundaries. These flights are subject to international regulations and typically involve longer distances and durations than domestic flights.</rdfs:comment>
+        <rdfs:label>International Flight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Narrow_Body_Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdfs:comment>The Narrow_Body_Aircraftsubclass represents smaller aircraft generally used for short to medium-haul flights.</rdfs:comment>
+        <rdfs:label>Narrow Body Aircraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Passenger subclass includes individuals who travel on an aircraft, irrespective of their travel class. Passengers are essential to the airline industry, and their feedback and satisfaction are crucial for service improvement and market analysis.</rdfs:comment>
+        <rdfs:label>Passenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person">
+        <rdfs:comment>The Person class represents any individual involved in air travel, encompassing a wide range of roles from passengers to crew members.</rdfs:comment>
+        <rdfs:label>Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pilot">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Crew_Member"/>
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <rdfs:comment>The Pilot subclass includes individuals trained and certified to operate and navigate aircraft. Pilots are essential for the safety and efficiency of air travel, overseeing all aspects of flight management.</rdfs:comment>
+        <rdfs:label>Pilot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Post_Flight_Survey">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Post_Flight_Surveysubclass encompasses surveys conducted after the flight has occurred. This type of survey focuses on assessing passengers&apos; satisfaction with their flight experience, including aspects such as comfort, service quality, and overall satisfaction. The results are crucial for airlines to identify strengths and areas for improvement.</rdfs:comment>
+        <rdfs:label>Post Flight Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Pre_Flight_Survey">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Pre_Flight_Survey subclass includes surveys conducted before a passenger&apos;s flight. These surveys typically gather information about passengers&apos; expectations, preferences, and pre-travel concerns. The feedback is used to enhance service delivery and ensure a more personalized and satisfying flight experience.</rdfs:comment>
+        <rdfs:label>Pre Flight Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Regional_Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdfs:comment>The Regional_Aircraft subclass is designed for short-range flights, connecting smaller cities and regions. These aircraft are smaller in size and capacity</rdfs:comment>
+        <rdfs:label>Regional Aircraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review">
+        <rdfs:comment>The Review class represents evaluations or feedback provided by passengers regarding their flight experience. This class is crucial for gathering insights into various aspects of air travel, ranging from safety to entertainment, helping airlines to improve their services and enhance customer satisfaction.</rdfs:comment>
+        <rdfs:label>Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Safety_Review">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:comment>The Safety_Review subclass encompasses assessments focused on the safety measures and protocols of an airline. These reviews evaluate factors such as emergency procedures, crew responsiveness, and overall safety conditions, which are critical for passenger trust and airline reputation.</rdfs:comment>
+        <rdfs:label>Safety Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Service_Review">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+        <rdfs:comment>The Service_Review subclass involves feedback on the quality of service provided by the airline&apos;s crew, including interactions with flight attendants, the efficiency of the service, and the hospitality shown to passengers.</rdfs:comment>
+        <rdfs:label>Service Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The Survey class represents a systematic collection of data from passengers regarding their flight experiences or expectations. Surveys are essential tools for airlines to gather actionable insights that can improve service quality and passenger satisfaction. This class serves as a foundation for categorizing different types of surveys based on their timing relative to the flight.</rdfs:comment>
+        <rdfs:label>Survey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Wide_Body_Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdfs:comment>The Wide_Body_Aircraft subclass represents larger aircraft typically used for long-haul international flights.</rdfs:comment>
+        <rdfs:label>Wide Body Aircraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350">
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Aircraft"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasAircraft rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350"/>
+        <hasFlight rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance"/>
+        <rdfs:comment>for Qatar Airways</rdfs:comment>
+        <rdfs:label>Airbus A350</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#JohnDoe">
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Person"/>
+        <hasFlight rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001"/>
+        <rdfs:comment>travel in QR001</rdfs:comment>
+        <rdfs:label>John Doe</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#QatarAirwaysInstance">
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Airline"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdfs:comment>A major international airline based in Qatar, known for high service quality</rdfs:comment>
+        <rdfs:label>Qatar Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey123">
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasSurvey rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001"/>
+        <rdfs:comment>associated with flight QR001</rdfs:comment>
+        <rdfs:label>Survey 123</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#VueloQR001">
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+        <rdf:type rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasReview"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasSurvey"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Survey"/>
+            </owl:Restriction>
+        </rdf:type>
+        <hasAircraft rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#AirbusA350"/>
+        <rdfs:comment>fly QR001, fly FR002</rdfs:comment>
+        <rdfs:label>Vuelo QR001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#f">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#date">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+                        <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDelay"/>
+                                <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"/>
+                                <swrl:argument2 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./delay"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isDelayed"/>
+                        <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./f"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S2</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Review"/>
+                        <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#rating"/>
+                                <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"/>
+                                <swrl:argument2 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThanOrEqual"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./score"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasRecommended"/>
+                        <swrl:argument1 rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas./r"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:label>S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Passenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasFlown"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#f"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#Flight"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#f"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#hasDateFlown"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#f"/>
+                                                <swrl:argument2 rdf:resource="urn:swrl:var#date"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.catalunya.edu/ontologies/2024/Encuestas_de_Satisfacción_de_Aerolíneas.#isFrequentFlyer"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#p"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
